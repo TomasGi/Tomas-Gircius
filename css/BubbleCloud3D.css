@@ -1,0 +1,63 @@
+.scene3d {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.scene3d:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.object3d {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.noTextSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bubble {
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(179, 136, 255, 0.83);
+    -webkit-transform-origin: 50% 50% 0px;
+    border-radius: 50%;
+    color: #333;
+    text-align: center;
+    box-shadow: 2px 2px 20px rgba(179, 136, 255, 0.83);
+}
+
+.bubble:nth-child(2n) {
+    background-color: rgba(51, 194, 184, 0.83);
+    box-shadow: 2px 2px 20px rgba(51, 194, 184, 0.83);
+}
+
+.bubble:nth-child(3n) {
+    background-color: rgba(231, 185, 255, 0.83);
+    box-shadow: 2px 2px 20px rgba(231, 185, 255, 0.83);
+}
+
+.bubble>* {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#frameMask {
+    max-width: 600px;
+}
