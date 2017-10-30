@@ -302,7 +302,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  transform: translateY(100%);
+  transform: translateY(120%);
   transition: .3s;
   z-index: 50;
   width: 100%;
