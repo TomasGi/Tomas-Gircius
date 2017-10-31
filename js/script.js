@@ -100,3 +100,24 @@ eduToggles.forEach(function (toggle) {
   });
 });
 // //////////////////////////////////////// 
+
+// hide indication
+
+var indicationToggle = _('.can-toggle-ind');
+function hideIndication() {
+
+  var indication = _('.swipe')
+  if (indication.classList.contains('hidden')) {
+    return;
+  }
+  indication.classList.toggle('hidden');
+}
+
+indicationToggle.addEventListener('mousedown', function () {
+  hideIndication();
+});
+indicationToggle.addEventListener('touchmove', function () {
+  hideIndication();
+});
+
+// //////////////////////////////////////// 

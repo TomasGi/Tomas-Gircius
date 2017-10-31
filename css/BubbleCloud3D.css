@@ -40,17 +40,17 @@
     border-radius: 50%;
     color: #333;
     text-align: center;
-    box-shadow: 2px 2px 20px rgba(179, 136, 255, 0.83);
+    box-shadow: 2px 2px 20px rgba(179, 136, 255, 0.3);
 }
 
 .bubble:nth-child(2n) {
     background-color: rgba(51, 194, 184, 0.83);
-    box-shadow: 2px 2px 20px rgba(51, 194, 184, 0.83);
+    box-shadow: 2px 2px 20px rgba(51, 194, 184, 0.3);
 }
 
 .bubble:nth-child(3n) {
     background-color: rgba(231, 185, 255, 0.83);
-    box-shadow: 2px 2px 20px rgba(231, 185, 255, 0.83);
+    box-shadow: 2px 2px 20px rgba(231, 185, 255, 0.3);
 }
 
 .bubble>* {
